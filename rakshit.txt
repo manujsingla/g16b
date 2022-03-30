@@ -1,0 +1,159 @@
+//sum of two numbers
+#include <iostream>>;
+using namespace std;
+int main(){
+	int x,y;
+    cin>>x>>y;
+    int sum;
+	sum=x+y;
+	cout<<sum;
+	return 0;
+	
+}
+//sizeof
+#include <iostream>;
+using namespace std;
+int main(){
+	int x;
+	cout<<sizeof(x)<<endl;
+	long int y;
+	cout<<sizeof(y)<<endl;
+	long long int z;
+	cout<<sizeof(z)<<endl;
+	unsigned int a;
+	cout<<sizeof(a)<<endl;
+	short int b;
+	cout<<sizeof(b)<<endl;
+	signed char c;
+	cout<<sizeof(c)<<endl;
+	unsigned char d;
+	cout<<sizeof(d)<<endl;
+	float e;
+	cout<<sizeof(e)<<endl;
+	double f;
+	cout<<sizeof(f)<<endl;
+	long double g;
+	cout<<sizeof(g)<<endl;
+	
+	
+	return 0;
+}
+#include <iostream>;
+using namespace std;
+int main(){
+	//pre increement
+	for(int i=0;i<5;++i){
+		cout<<i<<endl;
+		
+		
+		
+	}
+	//post increemment
+	for(int j=0;j<5;j++){
+		cout<<j<<endl;
+	}
+	//pre decreement
+	int z;
+	cin>>z;
+	for(z;z>0;--z){
+		cout<<z<<endl;
+	}
+	//post decreement
+	cin>>z;
+	for(z;z>0;z--){
+		cout<<z<<endl;
+	}
+#include <iostream>;
+using namespace std;
+int main(){
+int a,b,c;
+cin>>a>>b;
+c=a;;
+a=b;;
+b=c;
+cout<<a<<" "<<b;
+
+
+}
+#include <iostream>;
+using namespace std;
+int main(){
+int a,b;
+cin>>a>>b;
+a=a+b;
+b=a-b;
+a=a-b;
+cout<<a<<" "<<b;
+
+
+}
+   
+#include <iostream>;
+using namespace std;
+int main(){
+	int n;
+	cin>>n;
+	
+	if(n%3==0 || n%7==0 )
+	cout<<n<<" "<<"is multiple of 3 or 7";
+	else
+	cout<<n<<" "<<"is not multiple of 3 or 7";
+	
+		
+		
+	
+  
+	
+	
+	
+	
+	return 0;
+}
+#include <iostream>;
+using namespace std;
+int main(){
+	int a;
+    cout<<"enter the number you want to find factorial of"<<endl;
+    cin>>a;
+    int fact=1;
+    for(a;a>0;a--){
+    	fact=fact*a;
+    	
+}	
+
+cout<<fact;
+return 0;
+}
+#include <iostream>;
+using namespace std;
+int main(){
+	int n;
+	int a;
+	cin>>n;
+	int sum = 0;
+	while(n>0){
+		a=n%10;
+		sum=sum+a;
+		n=n/10;
+		
+	}
+cout<<sum<<endl;
+return 0;
+}
+#include <iostream>;
+using namespace std;
+int main(){
+    int n,mul,sum=0;
+    int a;
+    cin>>n;
+    for(int i=0;i<=n;i++){
+    	mul=1;
+    	mul=mul*i*i;
+    	sum+=mul;
+    	
+    	
+	}
+	cout<<sum;
+	return 0;
+}
+  
